@@ -1,0 +1,356 @@
+{
+    "AI Models": {
+        "info": [
+            "MULTI CLASS MEDIUM DETECTION is not optimized",
+            "MULTI CLASS ACCURATE DETECTION is not optimized",
+            "HUMAN BODY FAST DETECTION is not optimized",
+            "HUMAN BODY MEDIUM DETECTION is not optimized",
+            "HUMAN BODY ACCURATE DETECTION is not optimized",
+            "HUMAN BODY 38 FAST DETECTION is not optimized",
+            "HUMAN BODY 38 MEDIUM DETECTION is not optimized",
+            "HUMAN BODY 38 ACCURATE DETECTION is not optimized",
+            "PERSON HEAD DETECTION is not optimized",
+            "PERSON HEAD ACCURATE DETECTION is not optimized",
+            "REID ASSOCIATION is not optimized",
+            "NEURAL DEPTH is not optimized",
+            "NEURAL PLUS DEPTH is not optimized"
+        ],
+        "valid": [
+            "MULTI CLASS DETECTION is optimized"
+        ]
+    },
+    "Camera Test": {
+        "InternalDevicesCount": 1,
+        "ZEDCount": 1,
+        "camera": {
+            "Device ID": 0,
+            "Firmware": 1523,
+            "Init Output": "OK",
+            "Model": "ZED",
+            "Serial Number": 5256916,
+            "valid": [
+                "<b>Camera: </b>ZED",
+                "<b>Firmware: </b>1523"
+            ]
+        },
+        "resolutions": {
+            "HD1080@15": {
+                "fps (input)": 15,
+                "fps (output)": 15,
+                "height (input)": 1080,
+                "height (output)": 1080,
+                "initialization": "OK",
+                "status": true,
+                "width (input)": 1920,
+                "width (output)": 1920
+            },
+            "HD1080@30": {
+                "fps (input)": 30,
+                "fps (output)": 30,
+                "height (input)": 1080,
+                "height (output)": 1080,
+                "initialization": "OK",
+                "status": true,
+                "width (input)": 1920,
+                "width (output)": 1920
+            },
+            "HD2K@15": {
+                "fps (input)": 15,
+                "fps (output)": 15,
+                "height (input)": 1242,
+                "height (output)": 1242,
+                "initialization": "OK",
+                "status": true,
+                "width (input)": 2208,
+                "width (output)": 2208
+            },
+            "HD720@15": {
+                "fps (input)": 15,
+                "fps (output)": 15,
+                "height (input)": 720,
+                "height (output)": 720,
+                "initialization": "OK",
+                "status": true,
+                "width (input)": 1280,
+                "width (output)": 1280
+            },
+            "HD720@30": {
+                "fps (input)": 30,
+                "fps (output)": 30,
+                "height (input)": 720,
+                "height (output)": 720,
+                "initialization": "OK",
+                "status": true,
+                "width (input)": 1280,
+                "width (output)": 1280
+            },
+            "HD720@60": {
+                "dropCount": -1,
+                "fps (input)": 60,
+                "fps (output)": 60,
+                "height (input)": 720,
+                "height (output)": 720,
+                "imageCount": 502,
+                "initialization": "OK",
+                "status": true,
+                "tearingCount": 0,
+                "width (input)": 1280,
+                "width (output)": 1280
+            },
+            "VGA@100": {
+                "fps (input)": 100,
+                "fps (output)": 91,
+                "height (input)": 376,
+                "height (output)": 376,
+                "initialization": "OK",
+                "status": true,
+                "width (input)": 672,
+                "width (output)": 672
+            },
+            "VGA@15": {
+                "fps (input)": 15,
+                "fps (output)": 15,
+                "height (input)": 376,
+                "height (output)": 376,
+                "initialization": "OK",
+                "status": true,
+                "width (input)": 672,
+                "width (output)": 672
+            },
+            "VGA@30": {
+                "fps (input)": 30,
+                "fps (output)": 30,
+                "height (input)": 376,
+                "height (output)": 376,
+                "initialization": "OK",
+                "status": true,
+                "width (input)": 672,
+                "width (output)": 672
+            },
+            "VGA@60": {
+                "fps (input)": 60,
+                "fps (output)": 55,
+                "height (input)": 376,
+                "height (output)": 376,
+                "initialization": "OK",
+                "status": true,
+                "width (input)": 672,
+                "width (output)": 672
+            }
+        },
+        "sensors": {
+        }
+    },
+    "Devices": {
+        "ASMediaFound": false,
+        "CorruptedFirmware": false,
+        "OC_Cam_Detected": false,
+        "OtherUSBDevices": [
+        ],
+        "USBList": [
+            {
+                "USB_path": "/2",
+                "idProduct": "0x301a",
+                "idVendor": "0x413c"
+            },
+            {
+                "USB_path": "/3",
+                "idProduct": "0xa094",
+                "idVendor": "0x0408"
+            },
+            {
+                "USBMode": 3,
+                "USB_path": "/5",
+                "bDescriptorType": 1,
+                "bDeviceProtocol": 1,
+                "bLength": 18,
+                "bMaxPacketSize0": 9,
+                "bNumConfigurations": 1,
+                "bcdDevice": "1.0",
+                "bcdUSB": "3.0",
+                "bcdUSBClass": 239,
+                "bcdUSBSubClass": 2,
+                "busNumber": 2,
+                "device": "ZED",
+                "iManufacturer": 1,
+                "iProduct": 2,
+                "iSerial": 0,
+                "idProduct": "0xf582",
+                "idVendor": "0x2b03"
+            },
+            {
+                "USB_path": "/4",
+                "idProduct": "0x3802",
+                "idVendor": "0x04ca"
+            },
+            {
+                "USB_path": "/4",
+                "idProduct": "0x3802",
+                "idVendor": "0x04ca"
+            },
+            {
+                "USB_path": "/3",
+                "idProduct": "0xa094",
+                "idVendor": "0x0408"
+            },
+            {
+                "USB_path": "/4",
+                "idProduct": "0x0575",
+                "idVendor": "0x1c7a"
+            }
+        ],
+        "USBMode": 3,
+        "ZED Camera Module Detected": 62850,
+        "ZEDDetected": true,
+        "captureDevices": [
+        ],
+        "controllers": [
+            {
+                "CompatibleIDs": "",
+                "Description": "USB Root Hub (USB 3.0)",
+                "DeviceName": "",
+                "Driver": "{36fc9e60-c465-11cf-8056-444553540000}\\0002",
+                "Location": "",
+                "Manufacturer": "(Standard USB HUBs)",
+                "Name": "USB",
+                "PhysicalName": "\\Device\\USBPDO-1"
+            },
+            {
+                "CompatibleIDs": "PCI\\VEN_1022&DEV_1639&REV_00",
+                "Description": "USB xHCI Compliant Host Controller",
+                "DeviceName": "AMD USB 3.10 eXtensible Host Controller - 1.10 (Microsoft)",
+                "Driver": "{36fc9e60-c465-11cf-8056-444553540000}\\0000",
+                "Location": "PCI bus 4, device 0, function 3",
+                "Manufacturer": "Generic USB xHCI Host Controller",
+                "Name": "PCI",
+                "PhysicalName": "\\Device\\NTPNP_PCI0024"
+            },
+            {
+                "CompatibleIDs": "USB\\USB30_HUB",
+                "Description": "Generic SuperSpeed USB Hub",
+                "DeviceName": "",
+                "Driver": "{36fc9e60-c465-11cf-8056-444553540000}\\0008",
+                "Location": "Port_#0005.Hub_#0001",
+                "Manufacturer": "(Standard USB HUBs)",
+                "Name": "USB",
+                "PhysicalName": ""
+            },
+            {
+                "CompatibleIDs": "USB\\USB30_HUB",
+                "Description": "Generic SuperSpeed USB Hub",
+                "DeviceName": "",
+                "Driver": "{36fc9e60-c465-11cf-8056-444553540000}\\0009",
+                "Location": "Port_#0004.Hub_#0004",
+                "Manufacturer": "(Standard USB HUBs)",
+                "Name": "USB",
+                "PhysicalName": ""
+            },
+            {
+                "CompatibleIDs": "USB\\USB20_HUB",
+                "Description": "Generic USB Hub",
+                "DeviceName": "",
+                "Driver": "{36fc9e60-c465-11cf-8056-444553540000}\\0010",
+                "Location": "Port_#0004.Hub_#0003",
+                "Manufacturer": "(Standard USB HUBs)",
+                "Name": "USB",
+                "PhysicalName": ""
+            },
+            {
+                "CompatibleIDs": "USB\\USB20_HUB",
+                "Description": "Generic USB Hub",
+                "DeviceName": "",
+                "Driver": "{36fc9e60-c465-11cf-8056-444553540000}\\0007",
+                "Location": "Port_#0001.Hub_#0001",
+                "Manufacturer": "(Standard USB HUBs)",
+                "Name": "USB",
+                "PhysicalName": ""
+            }
+        ],
+        "valid": [
+            "<b>USB Bandwidth: </b> OK"
+        ]
+    },
+    "Graphics Card": {
+        "deviceCount": 1,
+        "deviceDriverVersion": 12070,
+        "devices": [
+            {
+                "arch": "Ampere",
+                "computeCapability": "8.6",
+                "cores": 2560,
+                "name": "NVIDIA GeForce RTX 3050 Ti Laptop GPU",
+                "totalMemoryBytes": "4294443008",
+                "totalMemoryMB": 4095.5
+            }
+        ],
+        "initResult": 0,
+        "valid": [
+            "<b>Graphics card: </b> NVIDIA GeForce RTX 3050 Ti Laptop GPU"
+        ]
+    },
+    "Processor": {
+        "OS": "Windows 10 FallCreators",
+        "avxSupported": true,
+        "coreCount": "6",
+        "cpu": "AMD Ryzen 5 5600U with Radeon Graphics         ",
+        "datetime": "2024-10-01 15:41:58",
+        "hyperThreading": "1",
+        "motherboard": "Orion_CA, CZ",
+        "ramCapacity": "15.3555",
+        "ramUsage": "0",
+        "ramUsed": "8.21458",
+        "threadCount": "12",
+        "valid": [
+            "<b>Processor: </b> AMD Ryzen 5 5600U with Radeon Graphics         ",
+            "<b>Motherboard: </b> Orion_CA, CZ"
+        ]
+    },
+    "ZED SDK": {
+        "CUDA Toolkit version": "V12.1.66 -->located in C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.1/bin/nvcc.exe",
+        "CUDA loading": false,
+        "ZED SDK Version (Diag)": "4.1.4",
+        "ZED SDK Version (RT)": "4.1.4",
+        "ai": {
+            "checkAI": true,
+            "cudaVersion": 12010,
+            "cudnnCudartVersion": 12020,
+            "cudnnVersion": 8907,
+            "cudnnVersionExpected": 8907,
+            "tensorVersion": 8601
+        },
+        "binFiles": [
+            "cudnn64_8.dll",
+            "cudnn_adv_infer64_8.dll",
+            "cudnn_adv_train64_8.dll",
+            "cudnn_cnn_infer64_8.dll",
+            "cudnn_cnn_train64_8.dll",
+            "cudnn_ops_infer64_8.dll",
+            "cudnn_ops_train64_8.dll",
+            "nvinfer.dll",
+            "nvinfer_builder_resource.dll",
+            "nvinfer_dispatch.dll",
+            "nvinfer_lean.dll",
+            "nvinfer_plugin.dll",
+            "nvinfer_vc_plugin.dll",
+            "nvonnxparser.dll",
+            "nvparsers.dll",
+            "sl_ai64.dll",
+            "sl_zed64.dll",
+            "zlibwapi.dll"
+        ],
+        "driverVersion": "565.90",
+        "drivervDllVersion": "32.0.15.6590",
+        "resourcesFiles": [
+            "objects_performance_3.2.model",
+            "objects_performance_3.2.model_optimized-fbcbw-1-86-12010-8907-8601-5-128-2048-48-100-512-20-00"
+        ],
+        "resourcesFilesExpected": [
+            "objects_performance_3.2"
+        ],
+        "runtimeDllVersion": 12010,
+        "valid": [
+            "<b>ZED SDK version:</b> 4.1.4",
+            "<b>CUDA version:</b> V12.1.66"
+        ]
+    }
+}
